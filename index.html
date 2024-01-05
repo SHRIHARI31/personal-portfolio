@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/anime.css" />
+  </head>
+  <body class="lg:overflow-x-hidden bg-black">
+    <main class="portfolio sm:bg-blacks w-full">
+      <div class="nav-wrapper">
+        <div class="heading-div lg:!relative">
+          <span class="nav-heading lg:text-transparent">shrihari</span>
+          <div>
+            <div class="cross-div lg:!hidden">
+              <span class="icon"></span>
+              <span class="icon"></span>
+              <span class="icon"></span>
+            </div>
+            <span class="lg:hidden">menu</span>
+          </div>
+        </div>
+        <nav
+          class="navbar hider lg:!absolute lg:bottom-[-5px] lg:!bg-transparent"
+        >
+          <ul class="nav-list lg:!flex-row lg:justify-end">
+            <li><a href="#home" class="navi">Home</a></li>
+            <li><a href="#about" class="navi">About</a></li>
+            <li><a href="#resume" class="navi">Resume</a></li>
+            <li><a href="#skill" class="navi">Skill</a></li>
+            <li><a href="#project-div" class="navi">project</a></li>
+            <li><a href="#contact" class="navi">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="portfolio-body lg:px-[15%]" id="portfolioBody">
+        <header
+          class="first-big-heading lg:!grid lg:!grid-cols-2 lg:!h-[500px] lg:!mt-0"
+          id="home"
+        >
+          <div class="divider-two lg:w-[50%]">
+            <span class="greet"> HELLO!</span>
+            <h1 class="tough-heading">
+              I'm <span class="">shrihari R</span>
+              <br />
+              <p id="passion"></p>
+            </h1>
+            <div class="btn-section">
+              <button class="hire-button btn">HIRE ME</button>
+              <button
+                class="hover:scale-105 duration-100 ease-in-out hover:bg-blue-100 hover:!text-black"
+              >
+                MY WORKS
+              </button>
+            </div>
+          </div>
+          <div class="divider-one lg:hidden">
+            <img
+              src="https://www.svgrepo.com/show/474372/code.svg"
+              alt=""
+              class="lg:w-[300px]"
+            />
+          </div>
+          <div class="large-screen-img-div lg:w-[50%] hidden lg:block">
+            <img
+              src="https://www.svgrepo.com/show/474372/code.svg"
+              alt=""
+              class="lg:w-[300px]"
+            />
+          </div>
+        </header>
+        <section class="second-big-heading lg:grid lg:grid-cols-2" id="about">
+          <div
+            class="picture-div lg:w-[50%] lg:p-8 lg:!flex lg:justify-center lg:items-center"
+          >
+            <img
+              src="https://www.svgrepo.com/show/187062/coding-monitor.svg"
+              alt=""
+              srcset=""
+              class="lg:!w-[500px]"
+            />
+          </div>
+          <div class="info-divider-two lg:!h-[100vh] lg:mt-[100px]">
+            <h1 class="second-tough-heading">About me</h1>
+            <span class="capitalize">
+              a person passionate in both mankind and technology
+            </span>
+            <ul class="second-ul">
+              <li class="">
+                <span class="">Name:</span>
+                <span class="opacity-55">shrihari</span>
+              </li>
+              <li class="">
+                <span class="">Date of birth:</span>
+                <span class="opacity-55">December 3,2003</span>
+              </li>
+              <li class="">
+                <span class="">Address:</span>
+                <span class="opacity-55">Tamil Nadu, India</span>
+              </li>
+              <li class="">
+                <span class="">Zip code:</span>
+                <span class="opacity-55">626101</span>
+              </li>
+              <li class="">
+                <span class="">Email:</span>
+                <span class="opacity-55">shrihari3122003@gmail.com</span>
+              </li>
+              <li class="">
+                <span class="">Phone: </span>
+                <span class="opacity-55">9865929931</span>
+              </li>
+            </ul>
+            <h1 class=""><span class="quote">6</span> Project complete</h1>
+            <div class="btn-div-download btn">
+              <button class="download-cv">DOWNLOAD CV</button>
+            </div>
+          </div>
+        </section>
+        <section class=" " id="resumeDiv">
+          <h1 class="hider hidden">resume</h1>
+          <h1 class="lg:!block lg:mt-[10px]" id="resume">resume</h1>
+          <p class="lg:text-center">
+            Lorem ipsum dolor sit amet nulla quasi iste at eveniet qui
+            temporibus hic dolore inventore sapiente vitae placeat ab laborum
+            nemo error, quis optio.
+          </p>
+        </section>
+        <section class="boxes" id="boxes"></section>
+        <div class="btn-div btn">
+          <button class="download-cv uppercase">download cv</button>
+        </div>
+        <section class="show-skill" id="skill">
+          <div class="wraper-div">
+            <h1 class="skill-hide">my skill</h1>
+            <h1 class="my-skill">my skill</h1>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">javascript</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">html 5</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">css 3</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">tailwind</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">python</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+          <div class="progress-wrap">
+            <div class="skill-content-wrapper">
+              <div class="skill-name">mysql</div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill-bar"></div>
+          </div>
+        </section>
+        <section class="project-div" id="project-div">
+          <div class="wrapper-div" id="wrapperDiv">
+            <h1 class="project-hide">projects</h1>
+            <h1 class="my-project">my projects</h1>
+            <h3 class="project-title">
+              Lorem tione laudantium eum eius ipsum officia consequuntur? Minima
+              nulla dicta numquam, officiis earum labore.
+            </h3>
+            <div class="project-images" id="productImages">
+              <div class="img-div">
+                <img
+                  src="https://images.unsplash.com/photo-1703979224361-ba5b9993b7ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8"
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+              <div class="img-div">
+                <img
+                  src="https://images.unsplash.com/photo-1682687982470-8f1b0e79151a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+              <div class="img-div">
+                <img
+                  src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmFydXRvfGVufDB8fDB8fHww"
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+              <div class="img-div">
+                <img
+                  src="https://media.istockphoto.com/id/1640417179/photo/golf-ball-close-up-on-tee-grass-on-blurred-beautiful-landscape-of-golf-background-concept.webp?b=1&s=170667a&w=0&k=20&c=YojrsmUX38AgWGvieGkXJuPGkxQRbjKMTmyZnnfRMqg="
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+              <div class="img-div">
+                <img
+                  src="https://media.istockphoto.com/id/1511397821/photo/document-management-system-and-it-business-processes-arranging-for-archiving-find-and-manage.webp?b=1&s=170667a&w=0&k=20&c=4BeyTSuNi41d7xZQdUjnlKmCFEgkewkskkat882W7UU="
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+              <div class="img-div">
+                <img
+                  src="https://media.istockphoto.com/id/1497689894/photo/businessman-working-with-business-analytics-and-data-management-system-on-computer-online.webp?b=1&s=170667a&w=0&k=20&c=Xi5wQFKJq_bpHL6qJkU_qjOCHyq65sC8J4pV5F4DQ40="
+                  alt=""
+                />
+                <div class="img-above">
+                  <h3>eidjejdiejdiewdwdwdw</h3>
+                  <span>djwdjwdjwdw</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-segment">
+            <div class="project-img-calc"></div>
+            <div class="project-img-login"></div>
+            <div class="project-img-todo"></div>
+            <div class="project-img-timer"></div>
+            <div class="project-img-profile"></div>
+            <div class="project-img-end"></div>
+          </div>
+        </section>
+        <section class="contact-section" id="contact">
+          <div class="wrapper-div">
+            <h1 class="">contact</h1>
+            <h1 class="">contact me</h1>
+          </div>
+          <div class="contact-logos">
+            <div class="log-div">
+              <img
+                src="https://www.svgrepo.com/show/501871/home-house.svg"
+                alt=""
+              />
+              <h1>address</h1>
+              <span>address details</span>
+            </div>
+            <div class="log-div">
+              <img src="https://www.svgrepo.com/show/474937/phone.svg" alt="" />
+              <h1>contact number</h1>
+              <span>my number</span>
+            </div>
+            <div class="log-div">
+              <img
+                src="https://www.svgrepo.com/show/484995/email-part-2.svg"
+                alt=""
+              />
+              <h1>Email address</h1>
+              <span>my email address</span>
+            </div>
+            <div class="log-div">
+              <img
+                src="https://www.svgrepo.com/show/331783/web-role.svg"
+                alt=""
+              />
+              <h1>website</h1>
+              <span>my site</span>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <div class="img-div">
+              <img
+                src="https://www.svgrepo.com/show/429905/portfolio-my-profile-browser.svg"
+                alt=""
+              />
+            </div>
+            <div class="form-space">
+              <input type="text" placeholder="your name" /><input
+                type="text"
+                placeholder="your mail"
+              /><input type="text" placeholder="subject" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="your message"
+              ></textarea>
+              <div class="btn">
+                <button
+                  class="send-message text-black bg-custom-gold font-semibold border border-custom-gold p-4 rounded-xl hover:border hover:bg-transparent hover:text-white;"
+                >
+                  send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer-div">
+          <div class="contact">
+            <h1>contact</h1>
+            <div class="social-media-wrapper">
+              <div class="social-media-logo">
+                <a href="https://www.linkedin.com/in/shrihari-r-39861325a">
+                  <img
+                    src="https://www.svgrepo.com/show/382726/linkedin-linked-in.svg"
+                    alt=""
+                    class="linkedIn"
+                /></a>
+              </div>
+              <div class="social-media-logo">
+                <a
+                  href="https://github.com/SHRIHARI31
+               "
+                >
+                <img
+                src="https://www.svgrepo.com/show/475654/github-color.svg"
+                alt=""
+                class="github"
+              /></a>
+              </div>
+              <div class="social-media-logo">
+                <a href="mailto:shrihari3122003@gmail.com">
+                  <img
+                  src="https://www.svgrepo.com/show/349378/gmail.svg"
+                  alt=""
+                  class="gmail"
+                />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="copyright-div">
+          <p>
+            Copyright ©2024 All rights reserved | This template is made by
+            shrihari R
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="/main.js"></script>
+  </body>
+</html>
