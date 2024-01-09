@@ -1,1 +1,1 @@
-https://portfolio-shrihari-31.netlify.app/ site alive at
+https://shrihari-ryomen.netlify.app/ site alive at
